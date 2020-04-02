@@ -50,3 +50,6 @@ map.set('second','world');
 for(let [key,value] of map){
 	console.log(key + " is " + value);
 }
+//for in 和 for of(最佳可用)区别
+//for in 应用于数组循环返回的是数组的下标和数组的属性和原型上的方法和属性，而for in应用于对象循环返回的是对象的属性名和原型中的方法和属性。
+
